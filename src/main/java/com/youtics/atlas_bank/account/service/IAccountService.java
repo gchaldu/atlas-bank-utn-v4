@@ -1,8 +1,7 @@
-package com.youtics.atlas_bank.service;
+package com.youtics.atlas_bank.account.service;
 
-import com.youtics.atlas_bank.dto.AccountRequestDTO;
-import com.youtics.atlas_bank.dto.AccountResponseDTO;
-import com.youtics.atlas_bank.model.Account;
+import com.youtics.atlas_bank.account.dto.AccountRequestDTO;
+import com.youtics.atlas_bank.account.dto.AccountResponseDTO;
 
 import java.util.List;
 import java.util.Optional;

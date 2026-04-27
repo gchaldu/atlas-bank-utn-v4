@@ -1,4 +1,4 @@
-package com.youtics.atlas_bank.dto;
+package com.youtics.atlas_bank.account.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -6,6 +6,8 @@ import jakarta.validation.constraints.PositiveOrZero;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
@@ -15,5 +17,5 @@ public class AccountRequestDTO {
     private String holder;
     @NotNull(message = "El dato no puede ser nulo")
     @PositiveOrZero(message = "El saldo de la cuenta no puede ser cero ni negativo")
-    private Double balance;
+    private BigDecimal balance;
 }

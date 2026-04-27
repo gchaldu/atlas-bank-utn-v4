@@ -1,6 +1,6 @@
-package com.youtics.atlas_bank.repository;
+package com.youtics.atlas_bank.account.repository;
 
-import com.youtics.atlas_bank.model.Account;
+import com.youtics.atlas_bank.account.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

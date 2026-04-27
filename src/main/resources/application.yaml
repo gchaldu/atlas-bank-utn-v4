@@ -2,7 +2,7 @@ spring:
   application:
     name: atlas-bank
   datasource:
-    url: jdbc:h2:mem:bankdb
+    url: jdbc:h2:mem:atlasbank
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -13,7 +13,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     show-sql: true
     properties:
       hibernate:

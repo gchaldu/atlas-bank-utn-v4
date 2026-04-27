@@ -1,4 +1,4 @@
-package com.youtics.atlas_bank.exception;
+package com.youtics.atlas_bank.account.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

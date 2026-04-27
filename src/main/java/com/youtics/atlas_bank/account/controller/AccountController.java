@@ -1,10 +1,9 @@
-package com.youtics.atlas_bank.controller;
+package com.youtics.atlas_bank.account.controller;
 
-import com.youtics.atlas_bank.dto.AccountRequestDTO;
-import com.youtics.atlas_bank.dto.AccountResponseDTO;
+import com.youtics.atlas_bank.account.dto.AccountRequestDTO;
+import com.youtics.atlas_bank.account.dto.AccountResponseDTO;
 
-import com.youtics.atlas_bank.mapper.AccountMapper;
-import com.youtics.atlas_bank.service.IAccountService;
+import com.youtics.atlas_bank.account.service.IAccountService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
